@@ -1,0 +1,108 @@
+#rightSide {
+    width: 400px;
+    height: 456px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#rightSide #formCont {
+    height: 350px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 24px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+#formCont form {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+#formCont form input {
+    height: 52px;
+    margin: 6px 0px;
+    font-size: 17px;
+    padding: 14px 16px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+}
+
+#formCont form input::placeholder {
+    color: #91949c;
+}
+
+#formCont form input:focus {
+    border: 1px solid #3866fb;
+    outline: none;
+}
+
+#formCont form #loginBtn {
+    height: 48px;
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+#formCont form p {
+    margin-top: 16px;
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+
+#formCont form #line {
+    margin: 20px 16px;
+    height: 1px;
+    background-color: #dadde1;
+}
+
+#formCont #createBtn {
+    width: 196px;
+    height: 48px;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 6px;
+    cursor: pointer;
+    align-self: center;
+}
+
+#rightSide #underText {
+    margin-top: 28px;
+    font-size: 14px;
+    color: #1c1e21;
+    text-align: center;
+
+}
+
+#rightSide #underText span {
+    font-weight: 600;
+    cursor: pointer;
+}
